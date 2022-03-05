@@ -1,0 +1,1069 @@
+<html> 
+
+<head> 
+
+<title>Wuerfeln</title> 
+
+<script language = "JavaScript"> 
+
+//Image archive
+
+//Leer pic
+
+pic0 = new Image(); 
+
+pic0.src = "null.GIF"; 
+
+
+//D4 pics
+
+D4pic1 = new Image(); 
+
+D4pic1.src = "EINS.GIF"; 
+
+D4pic2 = new Image();
+
+D4pic2.src = "ZWEI.GIF";
+
+D4pic3 = new Image();
+
+D4pic3.src = "DREI.GIF";
+
+D4pic4 = new Image();
+
+D4pic4.src = "VIER.GIF";
+
+
+//D6 pics
+
+D6pic1 = new Image(); 
+
+D6pic1.src = "EINS.GIF"; 
+
+D6pic2 = new Image();
+
+D6pic2.src = "ZWEI.GIF";
+
+D6pic3 = new Image();
+
+D6pic3.src = "DREI.GIF";
+
+D6pic4 = new Image();
+
+D6pic4.src = "VIER.GIF";
+
+D6pic5 = new Image();
+
+D6pic5.src = "FUENF.GIF";
+
+D6pic6 = new Image(); 
+
+D6pic6.src = "SECHS.GIF"; 
+
+
+//D8 pics
+
+D8pic1 = new Image(); 
+
+D8pic1.src = "1.png"; 
+
+D8pic2 = new Image();
+
+D8pic2.src = "2.png";
+
+D8pic3 = new Image();
+
+D8pic3.src = "3.png";
+
+D8pic4 = new Image();
+
+D8pic4.src = "4.png";
+
+D8pic5 = new Image();
+
+D8pic5.src = "5.png";
+
+D8pic6 = new Image(); 
+
+D8pic6.src = "6.png"; 
+
+D8pic7 = new Image();
+
+D8pic7.src = "7.png";
+
+D8pic8 = new Image(); 
+
+D8pic8.src = "8.png"; 
+
+
+//D10 pics
+
+D10pic1 = new Image(); 
+
+D10pic1.src = "1.png"; 
+
+D10pic2 = new Image();
+
+D10pic2.src = "2.png";
+
+D10pic3 = new Image();
+
+D10pic3.src = "3.png";
+
+D10pic4 = new Image();
+
+D10pic4.src = "4.png";
+
+D10pic5 = new Image();
+
+D10pic5.src = "5.png";
+
+D10pic6 = new Image(); 
+
+D10pic6.src = "6.png"; 
+
+D10pic7 = new Image();
+
+D10pic7.src = "7.png";
+
+D10pic8 = new Image(); 
+
+D10pic8.src = "8.png"; 
+
+D10pic9 = new Image();
+
+D10pic9.src = "9.png";
+
+D10pic10 = new Image(); 
+
+D10pic10.src = "10.png"; 
+
+
+//D12 pics
+
+D12pic1 = new Image(); 
+
+D12pic1.src = "1.png"; 
+
+D12pic2 = new Image();
+
+D12pic2.src = "2.png";
+
+D12pic3 = new Image();
+
+D12pic3.src = "3.png";
+
+D12pic4 = new Image();
+
+D12pic4.src = "4.png";
+
+D12pic5 = new Image();
+
+D12pic5.src = "5.png";
+
+D12pic6 = new Image(); 
+
+D12pic6.src = "6.png"; 
+
+D12pic7 = new Image();
+
+D12pic7.src = "7.png";
+
+D12pic8 = new Image(); 
+
+D12pic8.src = "8.png"; 
+
+D12pic9 = new Image();
+
+D12pic9.src = "9.png";
+
+D12pic10 = new Image(); 
+
+D12pic10.src = "10.png"; 
+
+D12pic11 = new Image();
+
+D12pic11.src = "11.png";
+
+D12pic12 = new Image(); 
+
+D12pic12.src = "12.png"; 
+
+
+//D20 pics
+
+D20pic1 = new Image(); 
+
+D20pic1.src = "1.png"; 
+
+D20pic2 = new Image();
+
+D20pic2.src = "2.png";
+
+D20pic3 = new Image();
+
+D20pic3.src = "3.png";
+
+D20pic4 = new Image();
+
+D20pic4.src = "4.png";
+
+D20pic5 = new Image();
+
+D20pic5.src = "5.png";
+
+D20pic6 = new Image(); 
+
+D20pic6.src = "6.png"; 
+
+D20pic7 = new Image();
+
+D20pic7.src = "7.png";
+
+D20pic8 = new Image(); 
+
+D20pic8.src = "8.png"; 
+
+D20pic9 = new Image();
+
+D20pic9.src = "9.png";
+
+D20pic10 = new Image(); 
+
+D20pic10.src = "10.png"; 
+
+D20pic11 = new Image();
+
+D20pic11.src = "11.png";
+
+D20pic12 = new Image(); 
+
+D20pic12.src = "12.png"; 
+
+D20pic13 = new Image(); 
+
+D20pic13.src = "13.png"; 
+
+D20pic14 = new Image();
+
+D20pic14.src = "14.png";
+
+D20pic15 = new Image();
+
+D20pic15.src = "15.png";
+
+D20pic16 = new Image();
+
+D20pic16.src = "16.png";
+
+D20pic17 = new Image();
+
+D20pic17.src = "17.png";
+
+D20pic18 = new Image(); 
+
+D20pic18.src = "18.png"; 
+
+D20pic19 = new Image();
+
+D20pic19.src = "19.png";
+
+D20pic20 = new Image(); 
+
+D20pic20.src = "20.png"; 
+
+
+
+
+
+
+
+//functions d4
+
+function change_d1() 
+{
+
+window.document.images[0].src = D4pic1.src; 
+
+} 
+
+function change_d2() 
+{
+
+window.document.images[0].src = D4pic2.src; 
+
+}
+
+function change_d3() 
+{
+
+window.document.images[0].src = D4pic3.src; 
+
+}
+
+function change_d4() 
+{
+
+window.document.images[0].src = D4pic4.src; 
+
+}
+
+
+//d6 functions
+
+function change_f1() 
+{
+
+window.document.images[1].src = D6pic1.src; 
+
+} 
+
+function change_f2() 
+{
+
+window.document.images[1].src = D6pic2.src; 
+
+}
+
+function change_f3() 
+{
+
+window.document.images[1].src = D6pic3.src; 
+
+}
+
+function change_f4() 
+{
+
+window.document.images[1].src = D6pic4.src; 
+
+}
+
+function change_f5() 
+{
+
+window.document.images[1].src = D6pic5.src; 
+
+}
+
+function change_f6() 
+{
+
+window.document.images[1].src = D6pic6.src; 
+
+}
+
+
+//d8 functions
+
+function change_h1() 
+{
+
+window.document.images[2].src = D8pic1.src; 
+
+} 
+
+function change_h2() 
+{
+
+window.document.images[2].src = D8pic2.src; 
+
+}
+
+function change_h3() 
+{
+
+window.document.images[2].src = D8pic3.src; 
+
+}
+
+function change_h4() 
+{
+
+window.document.images[2].src = D8pic4.src; 
+
+}
+
+function change_h5() 
+{
+
+window.document.images[2].src = D8pic5.src; 
+
+}
+
+function change_h6() 
+{
+
+window.document.images[2].src = D8pic6.src; 
+
+}
+
+function change_h7() 
+{
+
+window.document.images[2].src = D8pic7.src; 
+
+}
+
+function change_h8() 
+{
+
+window.document.images[2].src = D8pic8.src; 
+
+}
+
+
+//d10 functions
+
+function change_j1() 
+{
+
+window.document.images[3].src = D10pic1.src; 
+
+} 
+
+function change_j2() 
+{
+
+window.document.images[3].src = D10pic2.src; 
+
+}
+
+function change_j3() 
+{
+
+window.document.images[3].src = D10pic3.src; 
+
+}
+
+function change_j4() 
+{
+
+window.document.images[3].src = D10pic4.src; 
+
+}
+
+function change_j5() 
+{
+
+window.document.images[3].src = D10pic5.src; 
+
+}
+
+function change_j6() 
+{
+
+window.document.images[3].src = D10pic6.src; 
+
+}
+
+function change_j7() 
+{
+
+window.document.images[3].src = D10pic7.src; 
+
+}
+
+function change_j8() 
+{
+
+window.document.images[3].src = D10pic8.src; 
+
+}
+
+function change_j9() 
+{
+
+window.document.images[3].src = D10pic9.src; 
+
+}
+
+function change_j10() 
+{
+
+window.document.images[3].src = D10pic10.src; 
+
+}
+
+
+//d12 functions
+
+function change_l1() 
+{
+
+window.document.images[4].src = D12pic1.src; 
+
+} 
+
+function change_l2() 
+{
+
+window.document.images[4].src = D12pic2.src; 
+
+}
+
+function change_l3() 
+{
+
+window.document.images[4].src = D12pic3.src; 
+
+}
+
+function change_l4() 
+{
+
+window.document.images[4].src = D12pic4.src; 
+
+}
+
+function change_l5() 
+{
+
+window.document.images[4].src = D12pic5.src; 
+
+}
+
+function change_l6() 
+{
+
+window.document.images[4].src = D12pic6.src; 
+
+}
+
+function change_l7() 
+{
+
+window.document.images[4].src = D12pic7.src; 
+
+}
+
+function change_l8() 
+{
+
+window.document.images[4].src = D12pic8.src; 
+
+}
+
+function change_l9() 
+{
+
+window.document.images[4].src = D12pic9.src; 
+
+}
+
+function change_l10() 
+{
+
+window.document.images[4].src = D12pic10.src; 
+
+}
+
+function change_l11() 
+{
+
+window.document.images[4].src = D12pic11.src; 
+
+}
+
+function change_l12() 
+{
+
+window.document.images[4].src = D12pic12.src; 
+
+}
+
+
+//d20 functions
+
+function change_t1() 
+{
+
+window.document.images[5].src = D20pic1.src; 
+
+} 
+
+function change_t2() 
+{
+
+window.document.images[5].src = D20pic2.src; 
+
+}
+
+function change_t3() 
+{
+
+window.document.images[5].src = D20pic3.src; 
+
+}
+
+function change_t4() 
+{
+
+window.document.images[5].src = D20pic4.src; 
+
+}
+
+function change_t5() 
+{
+
+window.document.images[5].src = D20pic5.src; 
+
+}
+
+function change_t6() 
+{
+
+window.document.images[5].src = D20pic6.src; 
+
+}
+
+function change_t7() 
+{
+
+window.document.images[5].src = D20pic7.src; 
+
+}
+
+function change_t8() 
+{
+
+window.document.images[5].src = D20pic8.src; 
+
+}
+
+function change_t9() 
+{
+
+window.document.images[5].src = D20pic9.src; 
+
+}
+
+function change_t10() 
+{
+
+window.document.images[5].src = D20pic10.src; 
+
+}
+
+function change_t11() 
+{
+
+window.document.images[5].src = D20pic11.src; 
+
+}
+
+function change_t12() 
+{
+
+window.document.images[5].src = D20pic12.src; 
+
+}
+
+function change_t13() 
+{
+
+window.document.images[5].src = D20pic13.src; 
+
+}
+
+function change_t14() 
+{
+
+window.document.images[5].src = D20pic14.src; 
+
+}
+
+function change_t15() 
+{
+
+window.document.images[5].src = D20pic15.src; 
+
+}
+
+function change_t16() 
+{
+
+window.document.images[5].src = D20pic16.src; 
+
+}
+
+function change_t17() 
+{
+
+window.document.images[5].src = D20pic17.src; 
+
+}
+
+function change_t18() 
+{
+
+window.document.images[5].src = D20pic18.src; 
+
+}
+
+function change_t19() 
+{
+
+window.document.images[5].src = D20pic19.src; 
+
+}
+
+function change_t20() 
+{
+
+window.document.images[5].src = D20pic20.src; 
+
+}
+
+
+//functions
+
+function loopD4()
+{
+active = window.setInterval("D4()",10);
+}
+
+
+var p = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D4()",10);
+
+
+function D4()
+{   
+    
+    if (p>=50) {
+        window.clearInterval(active);
+        Set (p=0)
+    } 
+    else {
+        
+p++
+ 
+
+//function D4()
+//{
+var d = Math.round (Math.random()*3)+1;
+switch (d)
+
+{
+    case 1: change_d1 (); break
+    case 2: change_d2 (); break
+    case 3: change_d3 (); break
+    case 4: change_d4 (); break
+
+}
+
+}
+
+}
+//var x = 0
+
+
+
+function loopD6()
+{
+active = window.setInterval("D6()",10);
+}
+
+
+var pp = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D6()",10);
+
+
+function D6()
+{   
+    
+    if (pp>=50) {
+        window.clearInterval(active);
+        Set (pp=0)
+    } 
+    else {
+        
+pp++
+
+
+//function D6()
+//{
+var f = Math.round (Math.random()*5)+1;
+switch (f)
+
+{
+    case 1: change_f1 (); break
+    case 2: change_f2 (); break
+    case 3: change_f3 (); break
+    case 4: change_f4 (); break
+    case 5: change_f5 (); break
+    case 6: change_f6 (); break
+
+}
+
+
+//if (x<=60)
+//{   D6() }
+//x++
+
+}
+
+}
+
+//if (f==1)   alert("You rolled a 1")
+//if (f==2)   alert("You rolled a 2")
+//if (f==3)   alert("You rolled a 3")
+//if (f==4)   alert("You rolled a 4")
+//if (f==5)   alert("You rolled a 5")
+//if (f==6)   alert("You rolled a 6")
+
+
+
+
+function loopD8()
+{
+active = window.setInterval("D8()",10);
+}
+
+
+var ppp = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D8()",10);
+
+
+function D8()
+{   
+    
+    if (ppp>=50) {
+        window.clearInterval(active);
+        Set (ppp=0)
+    } 
+    else {
+        
+ppp++
+
+
+//function D8()
+//{
+var h = Math.round (Math.random()*7)+1;
+switch (h)
+
+{
+    case 1: change_h1 (); break
+    case 2: change_h2 (); break
+    case 3: change_h3 (); break
+    case 4: change_h4 (); break
+    case 5: change_h5 (); break
+    case 6: change_h6 (); break
+    case 7: change_h7 (); break
+    case 8: change_h8 (); break
+}
+
+}
+
+}
+
+
+function loopD10()
+{
+active = window.setInterval("D20()",10);
+}
+
+
+var pppp = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D10()",10);
+
+
+function D10()
+{   
+    
+    if (pppp>=50) {
+        window.clearInterval(active);
+        Set (pppp=0)
+    } 
+    else {
+        
+pppp++
+
+
+
+//function D10()
+//{
+var j = Math.round (Math.random()*9)+1;
+switch (j)
+
+{   case 1: change_j1 (); break
+    case 2: change_j2 (); break
+    case 3: change_j3 (); break
+    case 4: change_j4 (); break
+    case 5: change_j5 (); break
+    case 6: change_j6 (); break 
+    case 7: change_j7 (); break
+    case 8: change_j8 (); break
+    case 9: change_j9 (); break
+    case 10: change_j10 (); break
+}
+
+}
+
+}
+
+function loopD12()
+{
+active = window.setInterval("D12()",10);
+}
+
+
+var ppppp = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D12()",10);
+
+
+function D12()
+{   
+    
+    if (ppppp>=50) {
+        window.clearInterval(active);
+        Set (ppppp=0)
+    } 
+    else {
+        
+ppppp++
+
+
+
+//function D12()
+//{
+var l = Math.round (Math.random()*11)+1;
+switch (l)
+
+{   case 1: change_l1 (); break
+    case 2: change_l2 (); break
+    case 3: change_l3 (); break
+    case 4: change_l4 (); break
+    case 5: change_l5 (); break
+    case 6: change_l6 (); break 
+    case 7: change_l7 (); break
+    case 8: change_l8 (); break
+    case 9: change_l9 (); break
+    case 10: change_l10 (); break
+    case 11: change_l11 (); break
+    case 12: change_l12 (); break 
+}
+
+}
+
+}
+
+function loopD20()
+{
+active = window.setInterval("D20()",10);
+}
+
+
+var pppppp = 0;
+//var i = 1;
+//while (i <= 20)
+
+active = window.setInterval("D20()",10);
+
+
+function D20()
+{   
+    
+    if (pppppp>=50) {
+        window.clearInterval(active);
+        Set (pppppp=0)
+    } 
+    else {
+        
+pppppp++
+
+//function D20()
+//{
+var t = Math.round (Math.random()*19)+1;
+switch (t)
+
+{   case 1: change_t1 (); break
+    case 2: change_t2 (); break
+    case 3: change_t3 (); break
+    case 4: change_t4 (); break
+    case 5: change_t5 (); break
+    case 6: change_t6 (); break 
+    case 7: change_t7 (); break
+    case 8: change_t8 (); break
+    case 9: change_t9 (); break
+    case 10: change_t10 (); break
+    case 11: change_t11 (); break
+    case 12: change_t12 (); break    
+    case 13: change_t13 (); break
+    case 14: change_t14 (); break
+    case 15: change_t15 (); break
+    case 16: change_t16 (); break
+    case 17: change_t17 (); break
+    case 18: change_t18 (); break
+    case 19: change_t19 (); break
+    case 20: change_t20 (); break
+//}
+
+ //p++
+ 
+}
+
+}
+
+}
+//function rewind()
+//{
+
+
+ //   while (i<=60)
+ //   {   D20() }
+ //   i++
+
+
+//}
+
+
+//if (f==6)   alert("you rolled a 6")
+
+
+
+
+</script> 
+
+
+
+
+</head> 
+
+<body background = "dnd_background.jpeg">  
+
+<form name = "Feld">
+
+<table> 
+
+    <tr>     <td><img src = "null.GIF"> <img src = "null.GIF"> <img src = "null.GIF"> <img src = "null.GIF"> <img src = "null.GIF"> <img src = "null.GIF"> </td> </tr> 
+    
+</table><br> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D4" onClick = "D4(),loopD4()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D6" onClick = "D6(),loopD6()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D8" onClick = "D8(),loopD8()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D10" onClick = "D10(),loopD10"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D12" onClick = "D12(),loopD12()"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = button value = "Roll D20" onClick = "D20(),loopD20()"> 
+
+
+
+
+
+</form> 
+
+</body> 
+
+</html>
